@@ -1,0 +1,515 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Karthik | Developer Portfolio</title>
+    <meta name="description"
+          content="Karthik's personal portfolio showcasing skills, projects and education.">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background effects -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">K<span>.</span></a>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="nav-button">Let's Talk ↗</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home -->
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-content reveal">
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        Computer Science Student
+                    </div>
+
+                    <p class="eyebrow">HELLO, I'M KARTHIK</p>
+
+                    <h1>
+                        Building ideas<br>
+                        into <span class="gradient-text">reality.</span>
+                    </h1>
+
+                    <h2 class="hero-subtitle">
+                        Aspiring Full Stack Developer
+                    </h2>
+
+                    <p class="hero-description">
+                        I'm a Computer Science Engineering student at RVCE,
+                        exploring web development, programming and technology.
+                        I enjoy turning ideas into useful digital experiences.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Work ↗
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <!-- Replace # with your actual profile URLs -->
+                        <a href="#" class="social-link"
+                           aria-label="GitHub profile">GH ↗</a>
+                        <a href="#" class="social-link"
+                           aria-label="LinkedIn profile">in ↗</a>
+                        <span class="social-caption">Connect with me</span>
+                    </div>
+                </div>
+
+                <!-- Animated profile graphic -->
+                <div class="hero-visual reveal">
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+
+                    <div class="profile-card">
+                        <div class="card-top">
+                            <span class="window-dot"></span>
+                            <span class="window-dot"></span>
+                            <span class="window-dot"></span>
+                            <span class="card-label">developer.exe</span>
+                        </div>
+
+                        <div class="profile-icon">&lt;/&gt;</div>
+
+                        <p class="profile-name">Karthik</p>
+                        <p class="profile-role">Learning. Building. Growing.</p>
+
+                        <div class="code-snippet">
+                            <p><span class="code-purple">const</span>
+                                developer = {</p>
+                            <p class="indent">
+                                name: <span class="code-green">"Karthik"</span>,
+                            </p>
+                            <p class="indent">
+                                degree: <span class="code-green">"CSE"</span>,
+                            </p>
+                            <p class="indent">
+                                passion: <span class="code-green">"Coding"</span>
+                            </p>
+                            <p>};</p>
+                            <p class="code-comment">
+                                // Always learning something new
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="floating-badge badge-html">HTML</div>
+                    <div class="floating-badge badge-js">JS</div>
+                    <div class="floating-badge badge-python">Python</div>
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-indicator">
+                <span></span> Scroll to explore
+            </a>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About <span class="gradient-text">Me</span></h2>
+                    <p>A little about who I am and what I want to build.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card glass-card reveal">
+                        <div class="about-symbol">✦</div>
+                        <h3>Curious by nature</h3>
+                        <p>
+                            I'm interested in understanding how technology
+                            works and using it to solve practical problems.
+                            Every project is an opportunity to learn.
+                        </p>
+                    </div>
+
+                    <div class="about-card glass-card reveal">
+                        <div class="about-symbol">⌘</div>
+                        <h3>Growing as a developer</h3>
+                        <p>
+                            I'm developing my programming fundamentals and
+                            web development skills by building projects,
+                            experimenting with ideas and improving my code.
+                        </p>
+                    </div>
+
+                    <div class="about-card glass-card reveal">
+                        <div class="about-symbol">◎</div>
+                        <h3>My goal</h3>
+                        <p>
+                            My goal is to become a skilled software developer,
+                            create meaningful applications and keep growing
+                            through real-world experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">WHAT I'M LEARNING</p>
+                    <h2>My <span class="gradient-text">Skills</span></h2>
+                    <p>Technologies I'm exploring and practising.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card reveal">
+                        <span class="skill-icon html-icon">5</span>
+                        <h3>HTML</h3>
+                        <p>Web page structure</p>
+                        <div class="skill-track">
+                            <span style="--level: 75%"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <span class="skill-icon css-icon">✳</span>
+                        <h3>CSS</h3>
+                        <p>Styling and layouts</p>
+                        <div class="skill-track">
+                            <span style="--level: 65%"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <span class="skill-icon js-icon">JS</span>
+                        <h3>JavaScript</h3>
+                        <p>Interactive websites</p>
+                        <div class="skill-track">
+                            <span style="--level: 50%"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <span class="skill-icon python-icon">Py</span>
+                        <h3>Python</h3>
+                        <p>Programming fundamentals</p>
+                        <div class="skill-track">
+                            <span style="--level: 60%"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <span class="skill-icon c-icon">C</span>
+                        <h3>C Programming</h3>
+                        <p>Logic and problem-solving</p>
+                        <div class="skill-track">
+                            <span style="--level: 60%"></span>
+                        </div>
+                    </article>
+                </div>
+
+                <p class="small-note">
+                    Skill indicators are illustrative. Edit them to reflect
+                    your actual proficiency.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">THINGS I'M BUILDING</p>
+                    <h2>Featured <span class="gradient-text">Projects</span></h2>
+                    <p>A selection of projects to showcase my learning.</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card reveal">
+                        <div class="project-visual visual-one">
+                            <span class="project-number">01</span>
+                            <div class="project-illustration">◈</div>
+                            <span class="visual-label">WEB DEVELOPMENT</span>
+                        </div>
+
+                        <div class="project-content">
+                            <p class="project-type">PERSONAL PROJECT</p>
+                            <h3>Student Task Manager</h3>
+                            <p>
+                                A task management application for adding,
+                                completing, searching and deleting tasks,
+                                with browser-based data persistence.
+                            </p>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="#" class="project-link">
+                                Add project link <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-visual visual-two">
+                            <span class="project-number">02</span>
+                            <div class="project-illustration">⌖</div>
+                            <span class="visual-label">SMART APPLICATION</span>
+                        </div>
+
+                        <div class="project-content">
+                            <p class="project-type">WEB APPLICATION</p>
+                            <h3>Smart Parking</h3>
+                            <p>
+                                A web application concept for exploring
+                                parking locations and presenting useful
+                                location information to users.
+                            </p>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="#" class="project-link">
+                                Add project link <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-visual visual-three">
+                            <span class="project-number">03</span>
+                            <div class="project-illustration">&lt;C&gt;</div>
+                            <span class="visual-label">C PROGRAMMING</span>
+                        </div>
+
+                        <div class="project-content">
+                            <p class="project-type">CONSOLE APPLICATION</p>
+                            <h3>KCET Rank Predictor</h3>
+                            <p>
+                                A C-based project concept for estimating
+                                KCET ranks and exploring admission options
+                                using user-provided information.
+                            </p>
+                            <div class="tags">
+                                <span>C</span>
+                                <span>Algorithms</span>
+                                <span>Problem Solving</span>
+                            </div>
+                            <a href="#" class="project-link">
+                                Add project link <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="small-note">
+                    Replace these examples with your actual project details
+                    and working repository links. Don't claim unfinished
+                    features as completed work.
+                </p>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section section-alt" id="education">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">MY JOURNEY</p>
+                    <h2>Education & <span class="gradient-text">Growth</span></h2>
+                    <p>The foundation I'm building for my future.</p>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card glass-card">
+                            <span class="timeline-date">2025 – 2029</span>
+                            <h3>B.E. Computer Science Engineering</h3>
+                            <p class="timeline-place">
+                                RV College of Engineering, Bengaluru
+                            </p>
+                            <p>
+                                Studying computer science, programming,
+                                problem-solving and software development.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card glass-card">
+                            <span class="timeline-date">ONGOING</span>
+                            <h3>Self-Learning & Projects</h3>
+                            <p class="timeline-place">Independent learning</p>
+                            <p>
+                                Practising coding, exploring web technologies
+                                and building projects to strengthen my skills.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates -->
+        <section class="section" id="certificates">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">ACHIEVEMENTS</p>
+                    <h2>Certificates & <span class="gradient-text">Learning</span></h2>
+                    <p>A place to showcase completed courses and achievements.</p>
+                </div>
+
+                <div class="certificate-card glass-card reveal">
+                    <div class="certificate-icon">✧</div>
+                    <div>
+                        <h3>Your next achievement goes here</h3>
+                        <p>
+                            Add a real certificate, course completion,
+                            competition result or verified achievement.
+                        </p>
+                    </div>
+                    <span class="certificate-status">Add yours</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume -->
+        <section class="section section-alt" id="resume">
+            <div class="container">
+                <div class="resume-card glass-card reveal">
+                    <div>
+                        <p class="eyebrow">WANT TO KNOW MORE?</p>
+                        <h2>Let's look at my <span class="gradient-text">resume.</span></h2>
+                        <p>
+                            Add your resume PDF to the project folder
+                            to make it available here.
+                        </p>
+                    </div>
+
+                    <a href="resume.pdf" class="btn btn-primary" download>
+                        Download Resume ↓
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">GET IN TOUCH</p>
+                    <h2>Let's <span class="gradient-text">Connect</span></h2>
+                    <p>Have a project idea or want to connect? Send a message.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info reveal">
+                        <h3>Let's build something together.</h3>
+                        <p>
+                            I'm open to connecting with fellow students,
+                            developers and people interested in technology.
+                        </p>
+
+                        <div class="contact-detail">
+                            <span class="detail-icon">✉</span>
+                            <div>
+                                <small>Email</small>
+                                <p>Replace with your email address</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <span class="detail-icon">⌘</span>
+                            <div>
+                                <small>GitHub</small>
+                                <p>Showcase your coding projects</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form id="contact-form" class="contact-form glass-card reveal">
+                        <label for="name">Your name</label>
+                        <input id="name" name="name" type="text"
+                               placeholder="Enter your name" required>
+
+                        <label for="email">Your email</label>
+                        <input id="email" name="email" type="email"
+                               placeholder="Enter your email" required>
+
+                        <label for="message">Your message</label>
+                        <textarea id="message" name="message" rows="5"
+                                  placeholder="Write your message..."
+                                  required></textarea>
+
+                        <button class="btn btn-primary submit-button" type="submit">
+                            Prepare Email ↗
+                        </button>
+
+                        <p id="form-status" class="form-status"
+                           role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">K<span>.</span></a>
+            <p>Designed and built by Karthik.</p>
+            <a href="#home" class="back-to-top">Back to top ↑</a>
+        </div>
+        <p class="copyright">
+            © <span id="current-year"></span> Karthik. Built with HTML, CSS & JavaScript.
+        </p>
+    </footer>
+
+</body>
+</html>
